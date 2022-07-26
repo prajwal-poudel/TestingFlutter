@@ -18,7 +18,10 @@ class _ShowFullImageState extends State<ShowFullImage> {
         width: double.infinity,
         child: ClipRRect(
           child: Image.network(
+
               "https://?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"),
+
+        
         ),
       ),
     );
