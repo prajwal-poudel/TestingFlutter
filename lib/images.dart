@@ -18,7 +18,7 @@ class _ShowFullImageState extends State<ShowFullImage> {
         width: double.infinity,
         child: ClipRRect(
           child: Image.network(
-              "https://images.pexels.com/photos/7657346/pexels-photo-7657346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"),
+              "https://images.pexels.com/photos/7657346/pexels-photo-7657346.jpeg"),
         ),
       ),
     );
