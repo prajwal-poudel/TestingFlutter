@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:second_project/inputMethods.dart';
 import 'package:second_project/interactivePage.dart';
 import 'package:second_project/textInputData.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TextInputData(),
+      home: const InputMethods(),
     );
   }
 }
