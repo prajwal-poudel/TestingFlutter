@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:second_project/inputMethods.dart';
 import 'package:second_project/interactivePage.dart';
+import 'package:second_project/listViewPage.dart';
 import 'package:second_project/textInputData.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const InputMethods(),
+      home: const ListViewPage(),
     );
   }
 }
